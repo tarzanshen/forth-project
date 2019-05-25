@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    position: relative;
+    background-color: #5fc0cd;
+    padding-top: 10px;
+    padding-bottom: 37px;
+}
+.header img{
+    position: absolute;
+    width: 16px;
+    left: 8px;
+    top: 9px;
+}
+.people{
+    position: absolute;
+    left: 40%;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+.main{
+    width: 100%;
+    margin-top: -1px;
+    position: relative;
+    overflow: scroll;
+    height: 440px;
+}
+.banner{
+    background:url(image/04.png) no-repeat 0px 0px;
+    background-size: 100% 100%;
+    width: 100%;
+    padding-bottom:169px;
+    position: absolute;
+}
+.id_left{
+    position:absolute;
+    left: 37px;
+    top: 47px;
+
+}
+.id_left img{
+    width: 65px;
+    
+}
+.id_right{
+    position: absolute;
+    margin-left: 10px;
+    left: 116px;
+    top: 57px;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.id_right p{
+    font-size: 16px;
+}
+.id_right img
+{
+    width: 13px;
+    margin-right: 10px;
+}
+.skill{
+    position: relative;
+    top:179px;
+}
+.skill_1{
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+   
+}
+.skill_font{
+    border-left: 3px solid #5fc0cd; 
+    margin-left: 14px;
+    padding-left: 6px;
+    margin-bottom: 10px;
+}
+.skill_2{
+    width: 95%;
+    margin: auto;
+    font-size: 15px;
+}
+.condition{
+    
+    border-bottom: 1px solid #bababa;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.condition img{
+    width:19px;
+    margin-right: 6px;
+    margin-left: 10px;
+}
+.experience{
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.year{
+    color: #bababa;
+    margin-left: 10px;
+    border-right: 1px solid #bababa;
+    padding-right: 8px;
+}
+.year2{
+    margin-left: 8px;
+
+}
+.money
+{
+    color: red;
+    margin-left: 8px;
+}
+.people1{
+    margin-left: 88px;
+}
+.year3{
+    color: #bababa;
+    margin-left: 10px;
+    border-right: 1px solid #bababa;
+    padding-right: 8px;
+    float: left;
+    width: 61px;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    padding-top: 13px;
+}
+.button1{
+    border: 2px solid #5fc0cd;
+    color: #5fc0cd;
+    background-color: white;
+    border-radius: 8px;
+    width: 45%;
+    left: 2.2%;
+    height: 67px;
+    position: absolute;
+}
+.button2
+{
+    border: none;
+    background-color: #5fc0cd;
+    color: white;
+    border-radius: 8px;
+    width: 45%;
+    height: 67px;
+    position: absolute;
+    right:2.2%;
+}
