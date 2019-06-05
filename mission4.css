@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
+
 .header{
     width: 100%;
     position: relative;
@@ -26,11 +28,11 @@
     width: 100%;
     margin-top: -1px;
     position: relative;
-    overflow: scroll;
+    overflow: auto;
     height: 440px;
 }
 .banner{
-    background:url(image/04.png) no-repeat 0px 0px;
+    background:url(image/07.png) no-repeat 0px 0px;
     background-size: 100% 100%;
     width: 100%;
     padding-bottom:169px;
@@ -130,7 +132,6 @@
     width: 61px;
 }
 .footer{
-    position: relative;
     width: 100%;
     padding-top: 13px;
 }
