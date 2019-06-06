@@ -5,7 +5,6 @@
 }
 
 .header{
-    width: 100%;
     position: relative;
     background-color: #5fc0cd;
     padding-top: 10px;
@@ -25,7 +24,6 @@
     color: white;
 }
 .main{
-    width: 100%;
     margin-top: -1px;
     position: relative;
     overflow: auto;
@@ -132,7 +130,6 @@
     width: 61px;
 }
 .footer{
-    width: 100%;
     padding-top: 13px;
 }
 .button1{
