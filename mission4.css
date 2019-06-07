@@ -3,12 +3,16 @@
     padding: 0;
     overflow-x: hidden;
 }
-
+body
+{
+    overflow: auto;
+    padding-bottom: 100px;
+}
 .header{
     position: relative;
     background-color: #5fc0cd;
     padding-top: 10px;
-    padding-bottom: 37px;
+    padding-bottom: 10px;
 }
 .header img{
     position: absolute;
@@ -17,17 +21,16 @@
     top: 9px;
 }
 .people{
-    position: absolute;
-    left: 40%;
     font-weight: bolder;
     font-size: 18px;
     color: white;
+    margin: auto;
+    width: 72px;
 }
 .main{
     margin-top: -1px;
     position: relative;
-    overflow: auto;
-    height: 440px;
+    height: 485px;
 }
 .banner{
     background:url(image/07.png) no-repeat 0px 0px;
@@ -89,12 +92,26 @@
     border-bottom: 1px solid #bababa;
     margin-top: 10px;
     padding-bottom: 10px;
+    position: relative;
     
+}
+.img1
+{
+    margin-left: 10px;
+}
+.img2
+{
+    margin-left: 37px;
+}
+.condition span
+{
+    position: absolute;
+    top: -1px;
 }
 .condition img{
     width:19px;
     margin-right: 6px;
-    margin-left: 10px;
+    
 }
 .experience{
     width: 100%;
@@ -118,19 +135,22 @@
     color: red;
     margin-left: 8px;
 }
-.people1{
-    margin-left: 88px;
-}
+
 .year3{
     color: #bababa;
     margin-left: 10px;
+    flex-shrink: 0;
     border-right: 1px solid #bababa;
-    padding-right: 8px;
-    float: left;
-    width: 61px;
+    padding-right: 10px;
 }
 .footer{
     padding-top: 13px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
 }
 .button1{
     border: 2px solid #5fc0cd;
@@ -140,7 +160,6 @@
     width: 45%;
     left: 2.2%;
     height: 67px;
-    position: absolute;
 }
 .button2
 {
@@ -150,6 +169,16 @@
     border-radius: 8px;
     width: 45%;
     height: 67px;
-    position: absolute;
-    right:2.2%;
+}
+.experience1
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.people1{
+    margin-left: 7px;
 }
